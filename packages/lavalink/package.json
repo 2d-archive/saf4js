@@ -1,0 +1,20 @@
+{
+  "name": "lavalink-saf4js-provider",
+  "version": "1.0.0",
+  "description": "Lavalink provider for saf4js",
+  "main": "dist/index.js",
+  "repository": "https://github.com/some-github-user/repositoriy",
+  "author": "some-github-user",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "yarn clean && tsc",
+    "clean": "rimraf dist"
+  },
+  "files": [
+    "dist/**/*",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ]
+}

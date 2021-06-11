@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    /* compilation */
+    "lib": ["ES2020", "ES2020.BigInt", "ES2020.Promise", "ES2020.String"],
+    "target": "ES2020",
+    "allowJs": true,
+
+    /* strict check */
+    "strict": true,
+    "strictBindCallApply": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "alwaysStrict": true,
+    "pretty": true,
+    "importsNotUsedAsValues": "error",
+    "checkJs": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+
+    /* types */
+    "types": ["node"],
+
+    /* module options */
+    "module": "CommonJS",
+    "esModuleInterop": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "music-bot",
+  "version": "1.0.0",
+  "description": "yes",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "lavalink-saf4js-provider": "^1.0.0"
+  }
+}

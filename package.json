@@ -1,0 +1,29 @@
+{
+  "name": "saf4js",
+  "description": "SAF4JS: Simple Audio Facade for JavaScript",
+  "workspaces": [
+    "./packages"
+  ],
+  "license": "GPL-2.0-only",
+  "author": {
+    "url": "https://dimensional.fun",
+    "name": "melike2d",
+    "email": "gino@dimensional.fun"
+  },
+  "scripts": {
+    "lint": "eslint packages --ext .ts",
+    "lint:fix": "yarn lint --fix",
+    "build": "lerna run build",
+    "clean": "lerna run clean"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^15.12.2",
+    "@typescript-eslint/eslint-plugin": "^4.26.1",
+    "@typescript-eslint/parser": "^4.26.1",
+    "eslint": "^7.28.0",
+    "lerna": "^4.0.0",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.3.2"
+  }
+}

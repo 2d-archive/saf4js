@@ -1,0 +1,21 @@
+{
+  "name": "saf4js",
+  "version": "1.0.0",
+  "description": "SAF4JS Api",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "https://github.com/melike2d/saf4js",
+  "author": "melike2d",
+  "license": "GPL-2.0-only",
+  "private": false,
+  "scripts": {
+    "build": "yarn clean && tsc",
+    "clean": "rimraf dist"
+  },
+  "files": [
+    "dist/**/*",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ]
+}
